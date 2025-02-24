@@ -1,6 +1,6 @@
 USE CodeMyth;
 
-create table STUDENT(
+create table student(
 ID bigint NOT NULL auto_increment,
 NAME varchar (100) default NULL,
 CITY VARCHAR(50) default NULL,
