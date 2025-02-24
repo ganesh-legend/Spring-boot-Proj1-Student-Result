@@ -1,6 +1,8 @@
+CREATE DATABASE IF NOT EXISTS CodeMyth;
+
 USE CodeMyth;
 
-create table student(
+create table IF NOT EXISTS student(
 ID bigint NOT NULL auto_increment,
 NAME varchar (100) default NULL,
 CITY VARCHAR(50) default NULL,
