@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: student-result.ganeshpaar.one
+  - host: student-result.ganeshpawar.one
     http:
       paths:
       - path: /
